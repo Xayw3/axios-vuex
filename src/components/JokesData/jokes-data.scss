@@ -1,0 +1,50 @@
+.btns {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.btn {
+    border: 1px solid #42b983;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #42b983;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.title {
+    text-align: center;
+    width: 500px;
+}
+
+.btn:hover {
+    background-color: #42b983;
+    color: #fff;
+}
+
+.jokes {
+    display: flex;
+}
+
+.filter-wrapper {
+    width: 600px;
+}
+
+.jokes-wrapper {
+    text-align: start;
+}
+
+.joke-text {
+    max-width: 450px;
+}
+
+.joke-link {
+    display: block;
+    text-decoration: none;
+    width: 70px;
+    max-height: 40px;
+}
