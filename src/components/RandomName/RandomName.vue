@@ -1,10 +1,10 @@
 <template>
-  <button @click="clearPickedNamesMutation">set</button>
+  <button @click="clearPickedNamesMutation">Refresh</button>
   <button
     :disabled="notPickedNames.length > 0 ? false : true"
     @click="getRandomNameMutation"
   >
-    get
+    Get random name
   </button>
   <div>{{ randomName.name }}</div>
 </template>
